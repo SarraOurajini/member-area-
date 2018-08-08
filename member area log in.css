@@ -1,0 +1,67 @@
+.color {
+    color:white;
+}
+
+
+
+.pos {
+    margin-left: 47%;
+}
+.background {
+    background-color: #ffffe0;
+}
+
+.marg{ 
+    margin-top: 5%;
+
+}
+.mar {
+    margin-top: 12%;
+}
+.text-color {
+    color:rgb(56, 56, 56);
+    margin-bottom: 5%;
+    
+}
+.wid {
+    width: 300%;
+}
+.widt  {
+    width: 170%;
+}
+.top {
+    margin-top: 2.2%;
+    margin-left: 6%;
+}
+
+.btn-info {
+    margin-top: 5%;
+   width: 72%;
+   margin-left: 16%;
+
+    
+}
+.margin {
+    margin-left: 12%;
+}
+.pos1 {
+    margin-top: 4%;
+    width: 200%;
+    margin-left: 20%;
+}
+.position {
+    margin-top: 5%;
+    margin-left:70%;
+}
+
+.btnf {
+    color: blue;
+}
+.btnt {
+    color:  #1dcaff;
+  
+}
+.mar-top {
+    margin-top: 3%;
+    margin-left: 1.5%;
+}

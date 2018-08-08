@@ -1,0 +1,103 @@
+<!DOCTYPE.<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Member Area Sign up</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="C:\Users\Lenovo\Desktop\GMC projet\Member area\member area sign up.css" />
+    <script src="C:\Users\Lenovo\Desktop\GMC projet\Member area\member area sign up.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body class="background">
+
+
+    <header>
+        <div class="container-fluid" >  
+             <nav class="navbar fixed-top navbar-dark bg-dark">
+                     <div class="justify-content-start">
+                         <a class="navbar-brand " href="C:\Users\Lenovo\Desktop\GMC projet\Member area\member area Home.html"><img src="http://www.characterisation.eu/images/images/members-area.png" height="35px" width="200px"></a>
+                         <a class=" btn color" href="C:\Users\Lenovo\Desktop\GMC projet\Member area\member area Home.html">Home</a>
+                     </div>
+                     <div class="justify-content-end">
+                         <a class="btn color "href="C:\Users\Lenovo\Desktop\GMC projet\Member area\member area sign up.html">Sign up</a>
+                         <a class="btn color " href="C:\Users\Lenovo\Desktop\GMC projet\Member area\member area log in.html">Log in</a>
+                     </div>
+             </nav>             
+        </div>
+    </header>
+
+
+    <main>
+         <section class="container-fluid marg row">
+         <div class="col-md-6 text-center mar"><img src="http://icons.iconarchive.com/icons/custom-icon-design/flatastic-3/256/signup-icon.png" class="img-responsive"></div>
+         <div class="col-md-6">
+           <div class="row">
+             <form onsubmit="valid()" action="" method="POST">
+                <div class="form-group">
+                     <label for="fullname" class="text-style">Full Name</label> <br>
+                     <div class="row wid" > <i class="fa fa-user-circle col-md-1 "></i>
+                     <input class=" col-md-5" type="text" name="fullname" id="full-name" onblur="fname()" > </div>
+                     <p id="msg" class="msg"></p>
+                </div>
+                <div class="form-group">
+                        <label for="pseudo" class="text-style">Pseudo</label> <br>
+                        <div class="row wid" > <i class="fa fa-user col-md-1 "></i>
+                        <input class=" col-md-5" type="text" name="pseudo" id="pseud" onblur="psd()"> </div>
+                        <p id="msgg" class="msg"></p>
+                </div>
+                <div class="form-group ">
+                        <label for="email" class="text-style">Email</label> <br>
+                        <div class="row wid" > <i class="fa fa-envelope col-md-1 "></i>
+                        <input class=" col-md-5" type="text" name="email" id="maill" onblur="mail()"> </div>
+                        <p id="msggg" class="msg"></p>
+                </div>
+                <div class="form-group ">
+                        <label for="password" class="text-style">Password</label> <br>
+                        <div class="row wid" > <i class="fa fa-lock col-md-1 "></i>
+                        <input class=" col-md-5" type="text" name="password" id="pasw" onblur="pass()"> </div>
+                        <p id="msgggg" class="msg"></p>
+                </div>
+                <div class="form-group">
+                        <label for="confpassword" class="text-style">Confirm your Password</label> <br>
+                        <div class="row wid" > <i class="fa fa-lock col-md-1 "></i>
+                        <input class=" col-md-5" type="text" name="confpassword" id="paswconf" onblur="passconf()"></div>
+                        <p id="msggggg" class="msg"></p>
+                </div>
+                <div class="form-group ">
+                    <input type="checkbox">
+                    <label class="text-style">I accept <a href="">Terms&Conditions</a></label> 
+                </div>
+                <div class="form-group  ">
+                    <button type="submit" class="text-style btn btn-info widh">Send</button>
+                </div>
+             </form>
+            </div>
+            <div class="row">
+                <p class="text-style">Do you have an account? <a href="C:\Users\Lenovo\Desktop\GMC projet\Member area\member area log in.html">Log in</a></p>
+            </div>
+        </div> 
+        </section>
+    </main>
+
+
+    <footer>
+        <div class="container-fluid"> 
+            <nav class="navbar fixed-bottom navbar-dark bg-dark">
+                <div class="pos">
+                     <a src=""><img src="http://univ-cotedazur.fr/contenus-riches/images/logos/logo-twitter-blanc/image" height="20px" width="20px">  </a>
+                     <a src=""><img src="https://www.le-gresivaudan.fr/images/GBI_INIT/facebook-blanc.png" height="20px" width="20px"></a>
+                     <a src=""><img src="https://www.etransports.fr/img/logo/IN.png" height="20px" width="20px"></a>  
+                </div>
+            </nav>
+        </div>
+    </footer> 
+   
+</body>
+
+</html>

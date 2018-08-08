@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Member Area Log in</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="C:\Users\Lenovo\Desktop\GMC projet\Member area\member area log in.css" />
+    <script src=""></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body class="background">
+
+    <header>
+        <div class="container-fluid" >  
+             <nav class="navbar fixed-top navbar-dark bg-dark ">
+                     <div class="justify-content-start ">
+                         <a class="navbar-brand " href="C:\Users\Lenovo\Desktop\GMC projet\Member area\member area Home.html"><img src="http://www.characterisation.eu/images/images/members-area.png" height="35px" width="200px"></a>
+                         <a class=" btn color" href="C:\Users\Lenovo\Desktop\GMC projet\Member area\member area Home.html">Home</a>
+                     </div>
+                     <div class="justify-content-end ">
+                         <a class="btn color "href="C:\Users\Lenovo\Desktop\GMC projet\Member area\member area sign up.html">Sign up</a>
+                         <a class="btn color " href="C:\Users\Lenovo\Desktop\GMC projet\Member area\member area log in.html">Log in</a>
+                     </div>
+             </nav>             
+        </div>
+    </header>
+
+
+    <main>
+        <section class="row container-fluid marg">
+            <div class="col-md-6 mar text-center">
+             <img src="https://cdn4.iconfinder.com/data/icons/security-overcolor/512/access_key-512.png "height="200px" class="img-responsive">
+            </div>
+            <div class="col-md-6 marg">
+                <div class="row">
+                    <h4 class="text-color ">Log in</h4>
+                </div>
+                <div class="row">
+                    <form action="" method="GET">
+                            <div class="form-group row wid">
+                                 <i class="fa fa-user col-md-1 "></i>
+                                 <input class=" col-md-5" type="text" name="pseudo" placeholder="Pseudo" > 
+                            </div>
+                            <div class="form-group row wid">
+                                 <i class="fa fa-lock col-md-1 "></i>
+                                 <input class=" col-md-5 " type="text" name="password" placeholder="Password" > 
+                            </div>
+
+                            <div class="row widt ">
+                                <div class=" col-md-5   margin">
+                                    <div class="row">
+                                       <input type="checkbox" class=" top" >
+                                       <label>Stay connected?</label>
+                                    </div>
+                                </div>
+                                
+                                <div class=" col-md-5 "><a href="">Forgot your password?</a></div>
+                            </div>
+
+                            <div class="row widt"><button type="submit" class="btn btn-info">Log in</button></div>
+                                <div class="row"><img class="img-responsive position" src="data:image/png;base64,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" height="40px" width="40px"></div>
+                                <div class="row pos1 ">
+                                    <div class="col-md-2"></div>
+                                    <div class="col-md-2"><button class="btn btnf">Facebook</button></div>
+                                    <div class="col-md-2"></div>
+                                    <div class="col-md-4"><button class="btn btnt">Twitter</button></div>
+                                </div>
+                            </div>
+                            <div class="row "> 
+                                <div class="col-md-1"></div>
+                                <div class="mar-top "> You don't have an account? <a href="C:\Users\Lenovo\Desktop\GMC projet\Member area\member area sign up.html">Sign up</a></div></div>
+                    </form>
+
+                </div>
+                <div class="row">
+
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <div class="container-fluid"> 
+            <nav class="navbar fixed-bottom navbar-dark bg-dark">
+                <div class="pos">
+                     <a src=""><img src="http://univ-cotedazur.fr/contenus-riches/images/logos/logo-twitter-blanc/image" height="20px" width="20px">  </a>
+                     <a src=""><img src="https://www.le-gresivaudan.fr/images/GBI_INIT/facebook-blanc.png" height="20px" width="20px"></a>
+                     <a src=""><img src="https://www.etransports.fr/img/logo/IN.png" height="20px" width="20px"></a>  
+                </div>
+            </nav>
+        </div>
+    </footer> 
+   
+</body>
+
+</html>

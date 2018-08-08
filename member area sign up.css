@@ -1,0 +1,35 @@
+.color {
+    color:white;
+}
+
+
+
+.pos {
+    margin-left: 47%;
+}
+.background {
+    background-color: #ffffe0;
+}
+
+.marg{ 
+    margin-top: 5%;
+
+}
+.mar {
+    margin-top: 10%;
+}
+.text-style {
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(63, 62, 62);
+}
+.wid {
+    width: 300%;
+}
+.widh {
+    width: 150%;
+}
+.msg {
+    color:red;
+
+}

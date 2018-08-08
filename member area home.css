@@ -1,0 +1,42 @@
+
+/* for desktop*/
+
+
+
+.color {
+    color:white;
+}
+.row {
+    margin-top: 5%;
+}
+
+
+.text-center {
+    margin-top: 7%;
+    
+
+}
+.pos {
+    margin-left: 47%;
+}
+.background {
+    background-color: #ffffe0;
+
+}
+.text-sub {
+    color : rgba(5, 5, 134, 0.877);
+    font-size: 20px;
+}
+
+  /*for mobile*/
+
+  @media only screen and (max-width: 600px) {
+ 
+      
+.text-center {
+    margin-top: 30%;
+}
+
+
+
+  }
